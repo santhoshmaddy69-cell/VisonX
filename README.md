@@ -1,76 +1,63 @@
 # 📡 VisionX – Intelligent Wi-Fi Monitoring & Network Security Analyzer
 
-> An AI-powered dashboard that monitors Wi-Fi performance, analyzes network health, detects security risks, and provides intelligent troubleshooting recommendations in real time.
+> **An AI-powered dashboard that monitors Wi-Fi performance, analyzes network health, detects security risks, and provides intelligent troubleshooting recommendations through real-time analytics.**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask)
-![Networking](https://img.shields.io/badge/Networking-WiFi-green?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap)
 ![AI](https://img.shields.io/badge/AI-Rule%20Based-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Development-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Development-success?style=for-the-badge)
 
 ---
 
-# 📖 Overview
+## 🚀 Overview
 
-**VisionX** is an intelligent web dashboard designed to monitor Wi-Fi performance, analyze network health, and detect potential security threats in real time.
+**VisionX** is an AI-powered network monitoring dashboard designed to simplify Wi-Fi troubleshooting and improve network security.
 
-Instead of displaying only technical metrics, the dashboard collects and analyzes network parameters such as signal strength, latency, packet loss, DNS response, connected devices, and security configurations to identify the root cause of connectivity and security issues.
-
-Powered by a **Rule-Based AI Expert System**, **VisionX** transforms complex networking data into simple, human-readable insights and actionable recommendations, making network troubleshooting accessible to everyone.
+The dashboard continuously monitors network performance, evaluates connectivity metrics, analyzes security configurations, and uses a rule-based AI engine to diagnose common networking problems. Instead of presenting complex technical statistics, VisionX converts network data into meaningful insights with clear recommendations, making troubleshooting simple for both technical and non-technical users.
 
 ---
 
-# 🎯 Problem Statement
+## 🎯 Key Features
 
-Many users experience slow, unstable, or insecure Wi-Fi connections but struggle to identify the actual cause.
-
-Most existing networking tools only display raw technical statistics, requiring networking knowledge to understand and troubleshoot issues.
-
-**VisionX** bridges this gap by intelligently analyzing network performance and security, providing real-time diagnostics and practical recommendations through an interactive dashboard.
-
----
-
-# ✨ Features
-
-- 📶 Live Wi-Fi Network Monitoring
-- 📊 Real-Time Network Health Dashboard
+- 📶 Real-Time Wi-Fi Monitoring
+- 📊 Live Network Health Dashboard
 - 🤖 AI-Based Network Diagnosis
 - 📡 Signal Strength Analysis
 - ⚡ Latency, Jitter & Packet Loss Monitoring
-- 🌐 DNS & Gateway Status Monitoring
+- 🌐 DNS & Gateway Monitoring
 - 📱 Connected Device Discovery
 - 🔒 Network Security Analysis
-- 📈 Historical Performance Analytics
+- 📈 Historical Analytics & Trends
 - 📄 PDF Report Generation
 - 💡 Intelligent Troubleshooting Recommendations
 
 ---
 
-# 🧠 AI Diagnosis Engine
+## 🧠 AI Diagnosis Engine
 
-The core of **VisionX** is a **Rule-Based AI Expert System**.
-
-Instead of using machine learning, predefined networking rules are applied to diagnose common Wi-Fi and network issues.
+VisionX uses a **Rule-Based Expert System** to identify network issues without requiring machine learning.
 
 ### Example Rules
 
-| Condition | Diagnosis |
-|-----------|-----------|
+| Network Condition | AI Diagnosis |
+|------------------|--------------|
 | Signal Strength < -80 dBm | Weak Wi-Fi Coverage |
 | Packet Loss > 8% | Network Congestion |
-| High Ping + Low Signal | Poor Router Placement |
+| High Ping + Weak Signal | Poor Router Placement |
 | Strong Signal + Low Speed | Possible ISP Issue |
 | Too Many Connected Devices | Router Overload |
-| Open Wi-Fi or Weak Encryption | Security Risk |
+| Weak Encryption / Open Wi-Fi | Security Risk |
 
-The dashboard converts complex networking statistics into clear explanations and practical recommendations.
+The AI engine interprets live network metrics and provides easy-to-understand recommendations to help users resolve connectivity issues quickly.
 
 ---
 
-# 📊 Dashboard Modules
+## 📊 Dashboard Modules
 
-## 🛜 Network Information
-
+### 📡 Network Information
 - SSID
 - IP Address
 - Gateway
@@ -79,113 +66,62 @@ The dashboard converts complex networking statistics into clear explanations and
 - Frequency Band
 - Security Type
 
----
-
-## 📈 Live Performance
-
+### 📈 Performance Monitoring
 - Download Speed
 - Upload Speed
+- Signal Strength
 - Latency
 - Jitter
 - Packet Loss
-- Signal Strength
 
----
+### ❤️ Network Health Score
+Network health is calculated using:
 
-## ❤️ Network Health Score
-
-Generates an overall health score based on:
-
-- Signal Strength
+- Signal Quality
 - Internet Speed
 - Latency
 - Packet Loss
 - Security Level
 - Connected Devices
 
----
-
-## 🤖 AI Diagnosis
-
-Automatically detects:
+### 🤖 AI Diagnosis
+Detects:
 
 - Weak Signal
 - DNS Failure
 - High Latency
 - Packet Loss
 - Router Overload
-- ISP Performance Issues
+- ISP Issues
 - Channel Congestion
 - Security Vulnerabilities
 
----
-
-## 📱 Connected Devices
-
-Displays:
-
-- Device Name
-- IP Address
-- MAC Address
-- Vendor
-- Connection Status
-
----
-
-## 🔒 Security Analyzer
-
-Analyzes:
-
+### 🔒 Security Analyzer
 - Wi-Fi Encryption (WPA2/WPA3)
-- Open Networks
-- Unknown Connected Devices
-- Network Security Score
-- Basic Security Recommendations
+- Unknown Devices
+- Security Score
+- Security Recommendations
 
----
-
-## 📊 Historical Analytics
-
-Visualizes:
-
-- Signal Strength Trends
+### 📊 Analytics
+- Signal Strength History
 - Ping Trends
-- Packet Loss History
+- Packet Loss Trends
 - Network Health Timeline
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Chart.js
-
-### Backend
-
-- Python
-- Flask
-
-### Libraries
-
-- psutil
-- speedtest-cli
-- socket
-- ping3
-- matplotlib
-- reportlab
-
-### Database
-
-- SQLite
+| Category | Technologies |
+|----------|--------------|
+| Frontend | HTML5, CSS3, Bootstrap, JavaScript, Chart.js |
+| Backend | Python, Flask |
+| Database | SQLite |
+| Libraries | psutil, ping3, speedtest-cli, matplotlib, reportlab |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 VisionX/
@@ -198,13 +134,12 @@ VisionX/
 ├── templates/
 │   └── index.html
 │
+├── database/
 ├── reports/
 │
-├── database/
-│
 ├── app.py
-├── ai_engine.py
 ├── network_monitor.py
+├── ai_engine.py
 ├── security_analyzer.py
 ├── report_generator.py
 ├── requirements.txt
@@ -213,37 +148,9 @@ VisionX/
 
 ---
 
-# 🚀 Future Enhancements
+## 📸 Dashboard Preview
 
-- 📶 Wi-Fi Dead Zone Heat Map
-- 📡 Automatic Channel Recommendation
-- 🏠 Smart Router Placement Suggestions
-- 🔔 Real-Time Network Alerts
-- 🤖 AI Chat Assistant
-- 📊 Advanced Network Analytics
-- 🌐 Multi-Network Monitoring
-- ☁️ Cloud Dashboard Support
-
----
-
-# 🎓 Academic Relevance
-
-This project demonstrates practical implementation of:
-
-- Computer Networks
-- Wi-Fi Monitoring
-- Network Security
-- Network Troubleshooting
-- Rule-Based Artificial Intelligence
-- Data Visualization
-- Dashboard Development
-- Web Technologies
-
----
-
-# 📸 Dashboard Preview
-
-> Dashboard screenshots will be added after development.
+> Screenshots will be added after development.
 
 ```text
 Network Health : 94%
@@ -273,34 +180,59 @@ Recommendations
 
 ---
 
-# 🎯 Project Goals
+## 🎯 Project Goals
 
-- Simplify Wi-Fi monitoring
-- Improve network security awareness
-- Provide intelligent diagnostics
-- Visualize network performance
-- Detect security vulnerabilities
-- Deliver actionable recommendations
-- Make networking understandable for everyone
-
----
-
-# 🤝 Contributions
-
-Contributions, feature requests, and suggestions are welcome.
-
-If you have ideas to improve **VisionX**, feel free to fork the repository and submit a pull request.
+- Monitor Wi-Fi performance in real time
+- Detect network issues automatically
+- Improve Wi-Fi security awareness
+- Visualize network performance through analytics
+- Provide AI-driven troubleshooting recommendations
+- Simplify networking for everyday users
 
 ---
 
-# 📄 License
+## 🔮 Future Enhancements
+
+- 📶 Wi-Fi Heatmap Visualization
+- 📡 Automatic Channel Recommendation
+- 🏠 Smart Router Placement Advisor
+- 🔔 Real-Time Alerts & Notifications
+- 🤖 AI Chat Assistant
+- 🌐 Multi-Network Monitoring
+- ☁️ Cloud-Based Dashboard
+- 📱 Mobile Responsive Interface
+
+---
+
+## 🎓 Learning Outcomes
+
+This project demonstrates concepts in:
+
+- Computer Networks
+- Wi-Fi Monitoring
+- Network Security
+- Artificial Intelligence (Rule-Based Systems)
+- Data Visualization
+- Full-Stack Web Development
+
+---
+
+## 🤝 Contributing
+
+Contributions, feature requests, and suggestions are always welcome.
+
+Feel free to **Fork** the repository, submit **Pull Requests**, or open an **Issue** to help improve VisionX.
+
+---
+
+## 📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-# ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you like this project, don't forget to leave a ⭐ on the repository!
 
-**Built with ❤️ to make Wi-Fi monitoring, network diagnostics, and security analysis smarter with AI.**
+> **VisionX transforms complex network data into intelligent insights—making Wi-Fi monitoring, diagnosis, and security simpler, smarter, and more accessible.**
