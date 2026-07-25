@@ -114,7 +114,7 @@ Detects:
 
 | Category | Technologies |
 |----------|--------------|
-| Frontend | HTML5, CSS3, Bootstrap, JavaScript, Chart.js |
+| Frontend | HTML5, CSS3(Cascading Style Sheet), Bootstrap, JavaScript, Chart.js |
 | Backend | Python, Flask |
 | Database | SQLite |
 | Libraries | psutil, ping3, speedtest-cli, matplotlib, reportlab |
